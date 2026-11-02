@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect your PrimaDonna Aromatic",
+        "description": "Enter the De’Longhi email login that owns this machine. Home Assistant saves these credentials locally for scheduled wake requests.",
+        "data": {
+          "email": "De’Longhi email",
+          "password": "De’Longhi password",
+          "serial": "Machine serial number",
+          "app_client_id": "My Coffee Lounge EU app client ID"
+        }
+      },
+      "reconfigure": {
+        "title": "Connect your PrimaDonna Aromatic",
+        "description": "Enter the De’Longhi email login that owns this machine. Home Assistant saves these credentials locally for scheduled wake requests.",
+        "data": {
+          "email": "De’Longhi email",
+          "password": "De’Longhi password",
+          "serial": "Machine serial number",
+          "app_client_id": "My Coffee Lounge EU app client ID"
+        }
+      }
+    },
+    "error": {
+      "login_failed": "Could not sign in, reach the EU service, or find the owned Aromatic."
+    },
+    "abort": {
+      "already_configured": "This Aromatic is already configured.",
+      "reconfigure_successful": "Account details updated.",
+      "unique_id_mismatch": "Use the serial number of the configured machine."
+    }
+  }
+}

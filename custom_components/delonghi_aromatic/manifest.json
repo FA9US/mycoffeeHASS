@@ -1,0 +1,17 @@
+{
+  "domain": "delonghi_aromatic",
+  "name": "PrimaDonna Aromatic",
+  "codeowners": [
+    "@FA9US"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/FA9US/mycoffeeHASS",
+  "integration_type": "device",
+  "iot_class": "cloud_push",
+  "requirements": [
+    "paho-mqtt==2.1.0"
+  ],
+  "single_config_entry": true,
+  "version": "0.1.1",
+  "issue_tracker": "https://github.com/FA9US/mycoffeeHASS/issues"
+}

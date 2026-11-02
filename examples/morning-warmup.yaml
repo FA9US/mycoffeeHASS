@@ -1,0 +1,12 @@
+alias: PrimaDonna Aromatic morning warm-up
+description: Start warming the coffee machine at the scheduled local time.
+triggers:
+  - trigger: time
+    at: "06:45:00"
+    weekday: [mon, tue, wed, thu, fri]
+  - trigger: time
+    at: "08:45:00"
+    weekday: [sat, sun]
+actions:
+  - action: delonghi_aromatic.warm_up
+mode: single
